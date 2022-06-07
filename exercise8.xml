@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ESTE NO ES POSIBLE HACERLO CON DTD, PUES LOS DTD'S NO
+ VALIDAN EL TIPO DE DATO COMO STRING, INTEGER, FLOAT TANTO
+  EN LOS ATRIBUTOS COMO LOS ELEMENTOS, POR LO TANTO
+  NO SE PODRIA CUMPLIR CON LOS REQUERIMIENTOS DEL EJERCICIO-->
+
+<!-- RAICES VALIDAS -->
+<!--cantidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="exercise8.xsd" divisa="euro">
+    20
+</cantidad-->
+<cantidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="exercise8.xsd" divisa="dolar">
+18.32
+</cantidad>
+
+        <!-- RAICES INVALIDAS -->
+        <!--cantidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="exercise8.xsd">
+        20
+        </cantidad-->
+        <!--cantidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="exercise8.xsd" divisa="dolar">
+        abc
+        </cantidad-->
